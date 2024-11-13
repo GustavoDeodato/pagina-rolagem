@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+html, body{
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    width: 100vw;
+    background-color: black;
+    padding: 16px;
+    gap: 5px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a{
+    color: white;
+}
+header nav ul a:hover{
+    color: blue;
+    border-bottom: 20px aqua 
+}
+
+.grupo{
+    height: 100dvh;
+}
+#vermelho{
+    background-color: red;
+    background-image: url(Frame\ 1\ \(1\).png);
+}
+#verde{
+    background-color: green;
+    background-image: url(Frame\ 2.png);
+}
+#azul{
+    background-color: blue;
+    background-image: url(Frame\ 3.png);
+}
+#amarelo{
+    background-color: yellow;
+    background-image: url(Frame\ 4.png);
+}
+#roxo{
+    background-color: purple;
+    background-image: url(Frame\ 5.png);
+}
